@@ -1,4 +1,4 @@
-### Portfolio
+# Portfolio
 
 React application to present myself and to show some of my technical skills.
 
@@ -8,9 +8,7 @@ In the project directory, you can run:
 
 ### `npm run dev`
 
-Runs the app in the development mode.\
-Open [http://localhost:1234](http://localhost:1234) to view it in your browser.
-
+Runs the app in the development mode on [http://localhost:1234](http://localhost:1234).\
 The page will reload when the change is made.
 
 ### `npm run build`
@@ -25,5 +23,5 @@ Starts the server.
 
 ### `npm run spotify`
 
-Runs spotify wrapper in [http://localhost:3000](http://localhost:3000).\
+Runs spotify wrapper on [http://localhost:3000](http://localhost:3000).\
 It takes care of authentication with Spotify and needed in order to view and use the Music Master application
