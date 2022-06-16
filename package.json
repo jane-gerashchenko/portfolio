@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "base-64": "^0.1.0",
+    "concurrently": "^7.2.2",
     "express": "^4.16.4",
     "history": "^4.7.2",
     "limiting-middleware": "^1.3.2",
@@ -21,6 +22,6 @@
     "spotify": "nodemon src/projects/music-master/spotify-api-wrapper/index.js",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "start": "npm run build && live-server dist"
+    "start": "concurrently \"npm run build && live-server dist\" \"npm run spotify\""
   }
 }
