@@ -5,22 +5,22 @@ import project3 from '../assets/project3.png';
 const PROJECTS = [
     {
         id: 1,
-        title: 'Example React Application',
+        title: 'Music Master',
         description: 'A React App that, involving JS and core web dev concepts!',
-        link: 'https://github.com/jane-gerashchenko?tab=repositories',
+        link: 'https://github.com/jane-gerashchenko/music-master',
         image: project1
     },
     {
         id: 2,
-        title: 'My API',
-        description: 'A REST API that I built from scratch with GET and POST request!',
-        link: 'https://github.com/jane-gerashchenko?tab=repositories',
+        title: 'Survey Maker',
+        description: 'Large feedback-collection full stack application',
+        link: 'https://github.com/jane-gerashchenko/survey-maker',
         image: project2
     },
     {
         id: 3,
-        title: 'Operating Systems Final Project',
-        description: 'My unique final project fro my university Operating Systems course.',
+        title: 'Just a link to my Github',
+        description: 'Link to all of my repositories to get an overview of my skills',
         link: 'https://github.com/jane-gerashchenko?tab=repositories',
         image: project3
     }
