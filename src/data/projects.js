@@ -13,15 +13,15 @@ const PROJECTS = [
     {
         id: 2,
         title: 'Survey Maker',
-        description: 'Large feedback-collection full stack application',
+        description: 'Large feedback-collection full stack application!',
         link: 'https://github.com/jane-gerashchenko/survey-maker',
         image: project2
     },
     {
         id: 3,
-        title: 'Just a link to my Github',
-        description: 'Link to all of my repositories to get an overview of my skills',
-        link: 'https://github.com/jane-gerashchenko?tab=repositories',
+        title: 'Cypress tests',
+        description: 'Example of Cypress tests on the Adidas UK website!',
+        link: 'https://github.com/jane-gerashchenko/adidasTest',
         image: project3
     }
 ]
