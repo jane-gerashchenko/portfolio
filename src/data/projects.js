@@ -6,7 +6,7 @@ const PROJECTS = [
     {
         id: 1,
         title: 'Music Master',
-        description: 'A React App that, involving JS and core web dev concepts!',
+        description: 'A React App that, involving Spotify API and core web dev concepts!',
         link: 'https://github.com/jane-gerashchenko/music-master',
         image: project1
     },
