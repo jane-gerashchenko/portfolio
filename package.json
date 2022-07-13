@@ -1,7 +1,10 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.11.0"
+  },
   "dependencies": {
     "base-64": "^0.1.0",
     "concurrently": "^7.2.2",
