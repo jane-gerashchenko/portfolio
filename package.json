@@ -22,9 +22,9 @@
     "nodemon": "^1.18.9"
   },
   "scripts": {
-    "spotify": "nodemon src/projects/music-master/spotify-api-wrapper/index.js",
-    "dev": "parcel src/index.html",
+    "start": "concurrently \"npm run build && live-server dist\" \"npm run spotify\"",
+    "dev": "concurrently \"parcel src/index.html\" \"npm run spotify\"",
     "build": "parcel build src/index.html",
-    "start": "concurrently \"npm run build && live-server dist\" \"npm run spotify\""
+    "spotify": "nodemon src/projects/music-master/spotify-api-wrapper/index.js"
   }
 }
